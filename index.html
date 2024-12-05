@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Countdown</title>
+</head>
+
+<body class="bg-light text-dark">
+    <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
+        <div class="card p-4 shadow-lg" style="width: 300px;">
+            <h1 class="text-center mb-4">Countdown</h1>
+            <input id="timeInput" type="number" class="form-control mb-3" placeholder="Inserisci secondi" min="0">
+            <div class="d-flex justify-content-between">
+                <button id="startButton" class="btn btn-outline-dark">Avvia</button>
+                <button id="pauseButton" class="btn btn-outline-dark">Pausa</button>
+                <button id="resetButton" class="btn btn-outline-dark">Reset</button>
+            </div>
+
+            <div id="countdownDisplay" class="text-center mt-5 fs-2">0</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
